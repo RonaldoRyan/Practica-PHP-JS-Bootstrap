@@ -1,0 +1,77 @@
+
+
+
+
+  /* Botones azul */
+  .btn-primary {
+    background-color: #0361a9b7;
+    border-color: #0b0b0b;
+    margin-bottom: 0.5rem;
+
+  }
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  .btn-primary:focus,
+  .btn-primary:active {
+    background-color: #0063cc62;
+    border-color: #005cbf;
+  }
+  .btn-primary.disabled,
+  .btn-primary:disabled {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  /* Tabla */
+  .table {
+    background-color: #13163d6d;
+    color: whitesmoke;
+  }
+  .table th {
+    background-color: #0077ffc6;
+    color: #030303;
+  }
+
+
+
+
+  /* modal */
+
+
+.modal-update{
+    background: url('imagenes/bg-tienda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+
+
+}
+.insideModal{
+    background: #0c032148;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 20px;
+    font-style: italic;
+    color: black;
+}
+
+.modal-body-update{
+    background: #0c032148;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 20px;
+    font-style: italic;
+    color: black;
+}
+
+.modal-header-update{
+    background-color: #0c032148;
+}
+
+
+.modal-footer-update{
+    background-color: #0c032148;
+}
+

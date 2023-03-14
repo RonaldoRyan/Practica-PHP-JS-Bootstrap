@@ -1,0 +1,68 @@
+
+
+/* Contenedor principal */
+.pedido {
+    background: #0c032148;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 20px;
+    font-style: italic;
+    color: black;
+}
+
+form .btn-enviar {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+
+  }
+
+  form .btn-enviar:hover {
+    background-color: #0011ff68;
+  }
+
+
+/* Formulario */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #008CBA;
+    box-shadow: 0 0 5px rgba(0, 140, 186, 0.5);
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background: #008CBA;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background: #005B7F;
+}
+

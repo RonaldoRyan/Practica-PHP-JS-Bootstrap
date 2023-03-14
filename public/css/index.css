@@ -1,0 +1,186 @@
+h1{
+        text-decoration: underline;
+    }
+.panel {
+    background-image: url('imagenes/bg-tienda.jpg');
+    background-size: cover;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(250, 245, 245);
+    padding: 25rem;
+    margin-top: 1rem;
+}
+
+  .card {
+    background-color: #00000093;
+    color: rgb(255, 255, 255);
+    border: double;
+    border-color: white;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-3rem);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .btn-index {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-index:hover {
+    background-color: #0011ff3f;
+    transform: translateY(-0.25rem);
+  }
+
+
+  @media (max-width: 768px) {
+    .jumbotron {
+      padding: 8rem 0;
+    }
+
+    .card-body {
+      padding: 2rem 1rem;
+    }
+  }
+
+
+  /* estilos botones menu */
+
+  .btn-cerrar{
+    background-color: #000;
+    color: whitesmoke;
+  }
+  .btn-user{
+    background-color: #000;
+    color: whitesmoke;
+    margin-left: 1rem;
+  }
+  .btn-login{
+    background-color: #000;
+    color: whitesmoke;
+    margin-left: 1rem;
+  }
+  .btn-cerrar:hover{
+    background-color: #ff0000;
+    color: whitesmoke;
+  }
+  .btn-user:hover{
+    background-color: #008b2e84;
+    color: whitesmoke;
+    margin-left: 1rem;
+  }
+  .btn-login:hover{
+    background-color: #0c008bbb;
+    color: whitesmoke;
+    margin-left: 1rem;
+  }
+  /* Estilos personalizados para el modal de registro */
+#registerModal .modal-content {
+    background-color: #f5f5f5ae;
+    border-radius: 10px;
+}
+
+#registerModal .modal-header {
+    background-color: #001eff9e;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: groove;
+}
+
+#registerModal .modal-title {
+    font-weight: bold;
+}
+
+#registerModal label {
+    font-weight: bold;
+}
+
+#registerModal input[type="text"],
+#registerModal input[type="email"],
+#registerModal input[type="password"] {
+    border-radius: 5px;
+}
+
+#registerModal .btn-primary {
+    background-color: #00267eb4;
+    border-color: #ffffff;
+}
+
+#registerModal .btn-primary:hover {
+    background-color: #00267e;
+    border-color: #0a0a0a;
+}
+
+#registerModal .btn-secondary {
+    background-color: #ff0000d6;
+    border-color: #0f0f0f;
+}
+
+#registerModal .btn-secondary:hover {
+    background-color: #ff0000;
+    border-color: #000;
+}
+
+
+/* Estilos personalizados para el modal de inicio de sesión */
+#loginModal .modal-content {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+#loginModal .modal-header {
+    background-color: #00ff55af;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#loginModal .modal-title {
+    font-weight: bold;
+}
+
+#loginModal label {
+    font-weight: bold;
+}
+
+#loginModal input[type="email"],
+#loginModal input[type="password"] {
+    border-radius: 5px;
+}
+
+#loginModal .btn-primary {
+    background-color: #00ff55af;
+    border-color: #ffffff;
+}
+
+#loginModal .btn-primary:hover {
+    background-color: #00ff55e5;
+    border-color: #121212;
+}
+
+#loginModal .form-check-label {
+    font-weight: normal;
+}
+
+#loginModal .alert-danger {
+    margin-top: 10px;
+}
+
+
+.container-footer{
+   margin-top: 5rem;
+   margin-bottom: 1rem;
+   background-color: #00000099;
+   border-style: double;
+   color: white;
+}
