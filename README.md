@@ -1,8 +1,8 @@
 # Tienda en línea con Laravel
 
-Este es un proyecto que asemeja en algunos aspectos un sistema de ventas construido con Laravel. Permite a los usuarios crear un usario, loguear co nel mismo, realizar pedidos y ademas un sistema CRUD sencillo.    
+Este es un proyecto que asemeja en algunos aspectos un sistema de ventas construido con Laravel. Permite a los usuarios crear un usario, loguear con el mismo, realizar pedidos y ademas un sistema CRUD sencillo.    
 
-EL fin del proyecto es ir paso a paso haciendo cambios e ir implementando funciones mas complejas dentro de lo que permite el lenguaje , como el uso de apis, sistemas de compra estilo shopping car y individualizar le contenido que se muestra segun el usario que se conecta
+EL fin del proyecto es ir paso a paso haciendo cambios e ir implementando funciones mas complejas dentro de lo que permite el lenguaje , como el uso de apis, sistemas de compra estilo shopping car y individualizar el contenido que se muestra segun el usario que este en sesion en el momento
 
 
 ## Instalación
